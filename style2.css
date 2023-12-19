@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1695653420508-f2481c1d783c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-family: "Anurati";
+    letter-spacing: 3px;
+}
+button{
+    width: 130px;
+    height: 30px;
+    font-family: "Anurati";
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+#main2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+#left{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1695653423151-f56fde4f1567?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    box-sizing: border-box;
+}
+#right{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1695653422536-d1e9d449ce7b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+#overlay1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.534);
+}
+#overlay2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.330);
+}
+
+#center1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+h1{
+    font-family: "Anurati";
+    letter-spacing: 5px;
+}
+#center2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#btn{
+    border: 1px solid #000;
+    color: #000;
+}
+#btn:hover{
+    background-color: #000;
+    color: #fff;
+}
